@@ -1,0 +1,9 @@
+[project]
+name = "laufanalyse"
+version = "0.1.0"
+description = "Videobasierte Laufanalyse: Skelett-Tracking, Gelenkwinkel, Kadenz, Schrittlänge"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
